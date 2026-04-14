@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BharatNova | Indian Futuristic UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="sparkleCanvas" aria-hidden="true"></canvas>
+    <div class="grain-overlay"></div>
+    <div class="pattern-overlay"></div>
+
+    <header class="navbar glass nav-blur">
+      <a class="logo" href="#home">
+        <span class="chakra-dot"></span>
+        BharatNova
+      </a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Showcase</a>
+        <a href="#timeline">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-cta glow-border">Explore</button>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-content reveal">
+          <p class="hero-tag">Future Crafted in Indian Soul</p>
+          <h1>Where Tradition Meets<br />Futuristic Interface Design.</h1>
+          <p class="hero-subtitle">
+            A premium 3D-inspired visual language using saffron, chakra blue, white,
+            and emerald tones for immersive modern digital experiences.
+          </p>
+          <div class="hero-actions">
+            <button class="btn-primary glow-border">Start Journey</button>
+            <button class="btn-ghost">View Showcase</button>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div id="threeHero"></div>
+          <div class="hero-ring ring-1"></div>
+          <div class="hero-ring ring-2"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <h2 class="section-title reveal">About The Vision</h2>
+        <div class="about-grid">
+          <article class="about-card glass reveal tilt-card">
+            <h3>Sacred Geometry</h3>
+            <p>
+              Mandala-inspired visual symmetry blends with subtle depth layers to
+              create focused and calm interfaces.
+            </p>
+          </article>
+          <article class="about-card soft-card reveal tilt-card">
+            <h3>Modern Minimalism</h3>
+            <p>
+              Clean spacing, clear typography, and refined interaction states ensure
+              readability while preserving cultural identity.
+            </p>
+          </article>
+          <article class="about-card glass reveal tilt-card">
+            <h3>Festive Energy</h3>
+            <p>
+              Soft glow particles and diya-like ambiance add warmth without crowding
+              the premium experience.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <h2 class="section-title reveal">Core Highlights</h2>
+        <div class="feature-grid">
+          <article class="feature-card reveal tilt-card">
+            <span>01</span>
+            <h3>Glass + Neumorphism</h3>
+            <p>Layered surfaces with floating depth and tactile softness.</p>
+          </article>
+          <article class="feature-card reveal tilt-card">
+            <span>02</span>
+            <h3>3D Motion Language</h3>
+            <p>Smooth hover tilts, parallax drift, and subtle perspective transforms.</p>
+          </article>
+          <article class="feature-card reveal tilt-card">
+            <span>03</span>
+            <h3>Indian Color System</h3>
+            <p>Saffron, chakra blue, emerald green, white, and gold accents.</p>
+          </article>
+          <article class="feature-card reveal tilt-card">
+            <span>04</span>
+            <h3>Responsive Premium Grid</h3>
+            <p>Desktop elegance and mobile-first fluid behavior.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <h2 class="section-title reveal">Visual Showcase</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-card reveal tilt-card">
+            <img src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=1200&q=80" alt="Indian architecture lighting" />
+          </figure>
+          <figure class="gallery-card reveal tilt-card">
+            <img src="https://images.unsplash.com/photo-1602532305019-3dbbd482dae9?auto=format&fit=crop&w=1200&q=80" alt="Indian festival lamps" />
+          </figure>
+          <figure class="gallery-card reveal tilt-card">
+            <img src="https://images.unsplash.com/photo-1593766827228-8737b4534aa6?auto=format&fit=crop&w=1200&q=80" alt="Indian pattern artwork" />
+          </figure>
+          <figure class="gallery-card reveal tilt-card">
+            <img src="https://images.unsplash.com/photo-1524492514790-831f5b0d3ec8?auto=format&fit=crop&w=1200&q=80" alt="Modern Indian cityscape" />
+          </figure>
+        </div>
+      </section>
+
+      <section id="timeline" class="section">
+        <h2 class="section-title reveal">Experience Timeline</h2>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card glass">
+              <h3>Concept & Culture Mapping</h3>
+              <p>Mapped modern UI intent with Indian visual roots and emotional tone.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card glass">
+              <h3>3D Interaction Design</h3>
+              <p>Added dimensional motion, hover tilt, and dynamic layered components.</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-node"></div>
+            <div class="timeline-card glass">
+              <h3>Visual Polish & Performance</h3>
+              <p>Balanced glow, gradients, and responsiveness for high-end smoothness.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2 class="section-title reveal">Contact</h2>
+        <form class="contact-form glass reveal">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <input type="text" placeholder="Subject" required />
+          <textarea rows="5" placeholder="Tell us about your vision..." required></textarea>
+          <button type="submit" class="btn-primary glow-border">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.162.0/build/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
