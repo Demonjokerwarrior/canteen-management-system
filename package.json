@@ -1,0 +1,15 @@
+{
+  "name": "jeeava-ordering-system",
+  "version": "1.0.0",
+  "description": "Restaurant ordering, kitchen, inventory, and admin system with SQLite",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "initdb": "node initDb.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
